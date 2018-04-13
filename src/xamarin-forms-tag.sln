@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid", "Droid\Droid.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forms", "Forms\Forms.csproj", "{5CF1E54F-E47A-4379-8A1A-8603772565CE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Tag", "xamarin-forms-furigana\Xamarin.Forms.Tag.csproj", "{D256B981-15B1-4581-A937-E0E3ECBF0FA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Tag", "xamarin-forms-tag\Xamarin.Forms.Tag.csproj", "{D256B981-15B1-4581-A937-E0E3ECBF0FA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{33A83A7B-0358-4BC9-91CE-EC1967EE7B47}"
 EndProject
