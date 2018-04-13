@@ -135,13 +135,13 @@
     <AndroidResource Include="Resources\drawable\pin.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Forms\furigana.Form.csproj">
+    <ProjectReference Include="..\Forms\Forms.csproj">
       <Project>{5cf1e54f-e47a-4379-8a1a-8603772565ce}</Project>
-      <Name>furigana.Form</Name>
+      <Name>Forms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\xamarin-forms-furigana\Furigana.csproj">
+    <ProjectReference Include="..\xamarin-forms-furigana\Xamarin.Forms.Tag.csproj">
       <Project>{d256b981-15b1-4581-a937-e0e3ecbf0fa4}</Project>
-      <Name>Furigana</Name>
+      <Name>Xamarin.Forms.Tag</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\xamarin-forms-furigana\Furigana.csproj" />
+    <ProjectReference Include="..\xamarin-forms-furigana\Xamarin.Forms.Tag.csproj" />
   </ItemGroup>
 
 </Project>

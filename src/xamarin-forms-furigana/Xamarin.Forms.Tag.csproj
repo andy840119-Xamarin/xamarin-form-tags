@@ -4,16 +4,16 @@
     <TargetFrameworks>netstandard2.0;MonoAndroid80;Xamarin.iOS10;</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/andy840119-Xamarin/xamarin-furigana.git</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/andy840119-Xamarin/xamarin-forms-tag</PackageProjectUrl>
     <Authors>andy840119</Authors>
     <Description>Show furigana japanese character in xamarin.Forms</Description>
-    <PackageLicenseUrl>https://github.com/andy840119-Xamarin/xamarin-furigana/blob/master/README.md</PackageLicenseUrl>
-    <PackageTags>android ios furigana xamarin forms</PackageTags>
-    <PackageVersion>2.0.0</PackageVersion>
+    <PackageLicenseUrl>https://github.com/andy840119-Xamarin/xamarin-forms-tag/blob/master/README.md</PackageLicenseUrl>
+    <PackageTags>android ios tag xamarin forms</PackageTags>
+    <PackageVersion>1.0.0</PackageVersion>
     <PackageReleaseNotes>https://github.com/andy840119-Xamarin/xamarin-furigana/blob/master/README.md</PackageReleaseNotes>
-    <PackageIconUrl>https://raw.githubusercontent.com/andy840119-Xamarin/xamarin-furigana/master/icon/2.0.0.png</PackageIconUrl>
-    <AssemblyName>Xamarin.Forms.Furigana</AssemblyName>
-    <RootNamespace>Furigana</RootNamespace>
+    <PackageIconUrl></PackageIconUrl>
+    <AssemblyName>Xamarin.Forms.Tag</AssemblyName>
+    <RootNamespace>XamarinFormTag</RootNamespace>
     <RepositoryUrl>https://github.com/andy840119-Xamarin/xamarin-furigana.git</RepositoryUrl>
     <RepositoryType>Xamarin.Forms</RepositoryType>
   </PropertyGroup>

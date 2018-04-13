@@ -6,3 +6,7 @@ src/.vs/xamarin-forms-furigana/v15/Server/sqlite3/storage.ide-wal
 src/.vs/xamarin-forms-furigana/v15/Server/sqlite3/storage.ide-shm
 src/.vs/xamarin-forms-furigana/v15/Server/sqlite3/storage.ide
 src/.vs/xamarin-forms-furigana/v15/Server/sqlite3/db.lock
+src/.vs/xamarin-forms-tag/v15/Server/sqlite3/storage.ide-shm
+src/.vs/xamarin-forms-tag/v15/Server/sqlite3/db.lock
+src/.vs/xamarin-forms-tag/v15/Server/sqlite3/storage.ide-wal
+src/.vs/xamarin-forms-tag/v15/Server/sqlite3/storage.ide
