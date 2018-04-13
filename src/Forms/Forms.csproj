@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <AssemblyName>Furigana.Form</AssemblyName>
+    <AssemblyName>Tag.Form</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\xamarin-forms-furigana\Xamarin.Forms.Tag.csproj" />
+    <ProjectReference Include="..\xamarin-forms-tag\Xamarin.Forms.Tag.csproj" />
   </ItemGroup>
 
 </Project>

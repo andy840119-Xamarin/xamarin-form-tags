@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Furigana.Extension
+namespace XamarinFormTag.Extension
 {
     public static class StackOrientationExtension
     {

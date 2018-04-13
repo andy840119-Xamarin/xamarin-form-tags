@@ -1,5 +1,5 @@
 ﻿using System.Collections.ObjectModel;
-using Furigana.Model;
+using XamarinFormTag.Model;
 
 namespace CustomLayoutsDemo.ViewModels
 {

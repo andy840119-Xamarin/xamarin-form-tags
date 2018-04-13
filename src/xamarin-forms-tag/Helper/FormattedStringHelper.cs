@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Furigana.Helper
+namespace XamarinFormTag.Helper
 {
     /// <summary>
     ///     Convert text to FormattedString

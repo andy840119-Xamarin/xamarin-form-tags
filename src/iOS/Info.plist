@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>Furigana Demo</string>
+	<string>Xamarin.Forms.Tag Demo</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.andy840119.xamarin-forms-furigana</string>
+	<string>com.andy840119.xamarin-forms-tag</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

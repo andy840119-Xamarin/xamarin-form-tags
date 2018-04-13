@@ -15,7 +15,7 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <AssemblyName>Furigana.Droid</AssemblyName>
+    <AssemblyName>Tag.Droid</AssemblyName>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -139,7 +139,7 @@
       <Project>{5cf1e54f-e47a-4379-8a1a-8603772565ce}</Project>
       <Name>Forms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\xamarin-forms-furigana\Xamarin.Forms.Tag.csproj">
+    <ProjectReference Include="..\xamarin-forms-tag\Xamarin.Forms.Tag.csproj">
       <Project>{d256b981-15b1-4581-a937-e0e3ecbf0fa4}</Project>
       <Name>Xamarin.Forms.Tag</Name>
     </ProjectReference>

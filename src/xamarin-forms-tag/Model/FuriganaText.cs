@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
-namespace Furigana.Model
+namespace XamarinFormTag.Model
 {
     /// <summary>
     ///     Define each of character

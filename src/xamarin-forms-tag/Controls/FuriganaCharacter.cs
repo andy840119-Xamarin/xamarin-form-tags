@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
-using Furigana.Extension;
-using Furigana.Helper;
-using Furigana.Model;
 using Xamarin.Forms;
+using XamarinFormTag.Extension;
+using XamarinFormTag.Helper;
+using XamarinFormTag.Model;
 
-namespace Furigana.Controls
+namespace XamarinFormTag.Controls
 {
     /// <summary>
     ///     Character
