@@ -6,9 +6,25 @@ using System.Text;
 
 namespace XamarinFormTag.Model
 {
-    public class Tag : ITag
+    /// <summary>
+    /// 
+    /// </summary>
+    public class Tag : ITag , ITagType, ITagColor
     {
+        /// <summary>
+        /// Text
+        /// </summary>
         public string Text { get; set; }
+
+        /// <summary>
+        /// Type
+        /// </summary>
+        public TabType TabType { get; set; }
+
+        /// <summary>
+        /// Hex color
+        /// </summary>
+        public string TagHexColor { get; set; }
 
         /// <summary>
         ///     Event
