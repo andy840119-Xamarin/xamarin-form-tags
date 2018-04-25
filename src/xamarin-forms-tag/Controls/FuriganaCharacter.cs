@@ -132,6 +132,7 @@ namespace XamarinFormTag.Controls
                     _furiganaText = value;
                     _furiganaText.PropertyChanged += (a, b) => { OnPropertyChanged(); };
                 }
+
                 OnPropertyChanged();
             }
         }
@@ -247,6 +248,7 @@ namespace XamarinFormTag.Controls
                     //furigana
                     Children.Add(_furiganaLabel);
                 }
+
                 //update text
                 UpdateText();
                 //update style
@@ -270,6 +272,7 @@ namespace XamarinFormTag.Controls
                 _characterLabel.TextColor = TextColor.Value;
                 _romajiLabel.TextColor = TextColor.Value;
             }
+
             if (Orientation == StackOrientation.Vertical)
             {
                 //spacing

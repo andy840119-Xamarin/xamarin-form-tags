@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using XamarinFormTag.Model;
 
 namespace XamarinFormTag.Controls
@@ -9,46 +6,39 @@ namespace XamarinFormTag.Controls
     public class TagView : Button
     {
         /// <summary>
-        /// binding context
+        ///     binding context
         /// </summary>
         protected override void OnBindingContextChanged()
         {
             base.OnBindingContextChanged();
-            if (this.BindingContext is ITag tag)
+            if (BindingContext is ITag tag)
             {
-                tag.PropertyChanged += (a, b) =>
-                {
-                    ChangeStyle(a as ITag);
-                };
+                tag.PropertyChanged += (a, b) => { ChangeStyle(a as ITag); };
                 ChangeStyle(tag);
             }
         }
 
         protected virtual void ChangeStyle(ITag tag)
         {
-            if(tag==null)
+            if (tag == null)
                 return;
-            
+
             //set text
-            this.Text = tag.Text;
+            Text = tag.Text;
 
             //Change default color
             var defaultColor = Color.Black;
-            if (tag is ITagColor tagColor)
-            {
-                defaultColor = Color.FromHex(tagColor.TagHexColor);
-            }
+            if (tag is ITagColor tagColor) defaultColor = Color.FromHex(tagColor.TagHexColor);
 
             IsEnabled = false;
 
             TextColor = defaultColor;
             BackgroundColor = Color.White;
             BorderColor = defaultColor;
-           
+
 
             //set tyle
             if (tag is ITagType tagType)
-            {
                 switch (tagType.TabType)
                 {
                     //TODO : set type
@@ -68,9 +58,6 @@ namespace XamarinFormTag.Controls
                         IsEnabled = false;
                         break;
                 }
-            }
-
-            
         }
     }
 }

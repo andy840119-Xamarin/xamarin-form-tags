@@ -362,6 +362,7 @@ namespace XamarinFormTag.Controls
 
                 return new SizeRequest(new Size(width, height), new Size(minWidth, minHeight));
             }
+
             foreach (var item in Children)
             {
                 var size = item.Measure(widthConstraint, heightConstraint);

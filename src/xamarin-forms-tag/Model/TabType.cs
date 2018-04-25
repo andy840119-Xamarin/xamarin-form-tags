@@ -1,32 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XamarinFormTag.Model
+﻿namespace XamarinFormTag.Model
 {
     /// <summary>
-    /// Provide some commion type
+    ///     Provide some commion type
     /// </summary>
     public enum TabType
     {
         /// <summary>
-        /// Normai
+        ///     Normai
         /// </summary>
         Normal,
 
         /// <summary>
-        /// Highlight
+        ///     Highlight
         /// </summary>
         HighLight,
 
         /// <summary>
-        /// Alert
+        ///     Alert
         /// </summary>
         Alert,
 
         /// <summary>
-        /// Forbidden
+        ///     Forbidden
         /// </summary>
-        Forbidden,
+        Forbidden
     }
 }

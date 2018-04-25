@@ -1,35 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
 
 namespace XamarinFormTag.Model
 {
     /// <summary>
-    /// 
     /// </summary>
-    public class Tag : ITag , ITagType, ITagColor
+    public class Tag : ITag, ITagType, ITagColor
     {
         /// <summary>
-        /// Text
+        ///     Text
         /// </summary>
         public string Text { get; set; }
-
-        /// <summary>
-        /// Type
-        /// </summary>
-        public TabType TabType { get; set; }
-
-        /// <summary>
-        /// Hex color
-        /// </summary>
-        public string TagHexColor { get; set; }
 
         /// <summary>
         ///     Event
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
+
+        /// <summary>
+        ///     Hex color
+        /// </summary>
+        public string TagHexColor { get; set; }
+
+        /// <summary>
+        ///     Type
+        /// </summary>
+        public TabType TabType { get; set; }
 
         /// <summary>
         ///     Invoke

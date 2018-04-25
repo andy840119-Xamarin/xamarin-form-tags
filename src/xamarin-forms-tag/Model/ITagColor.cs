@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XamarinFormTag.Model
+﻿namespace XamarinFormTag.Model
 {
     /// <summary>
-    /// Tag color
+    ///     Tag color
     /// </summary>
     public interface ITagColor
     {
         /// <summary>
-        /// Tag Hex color
+        ///     Tag Hex color
         /// </summary>
         string TagHexColor { get; set; }
     }
