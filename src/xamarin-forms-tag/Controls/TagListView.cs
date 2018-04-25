@@ -17,17 +17,10 @@ namespace XamarinFormTag.Controls
     /// </summary>
     public class TagListView : TagListView<TagView, Tag>
     {
-        /// <summary>
-        ///     Create tag
-        /// </summary>
-        /// <param name="model"></param>
-        /// <returns></returns>
-        protected override TagView CreateTag(Tag model)
+        public TagListView()
         {
-            var tag = new TagView();
-            //TODO : add some property
-
-            return tag;
+            //Create default dataTemplate
+            TagItemTemplate = new DataTemplate(typeof(TagView));
         }
     }
 
@@ -86,10 +79,9 @@ namespace XamarinFormTag.Controls
         public Func<TagView> TagViewFactory
         {
             get => _tagViewFactory;
-
             set
             {
-                TagItemTemplate = new DataTemplate(value);
+                TagItemTemplate = new DataTemplate(typeof(TagView));
                 _tagViewFactory = value;
             }
         }
@@ -207,7 +199,6 @@ namespace XamarinFormTag.Controls
                 }
 
                 view.BindingContext = TagItems[i];
-
                 view.GestureRecognizers.Add(new TapGestureRecognizer
                 {
                     Command = new Command(() => PerformTagTap(view.BindingContext))
